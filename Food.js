@@ -30,13 +30,13 @@ class Food {
       textSize(15);
       if(lastFed>=12){
         textSize(20);
-          text("Last Feed : "+ lastFed%12 + " PM", 400,50);
+          text("Last Feed : "+ lastFed%12 + " PM", 300,50);
       }else if(lastFed==0){
         textSize(20);
-          text("Last Feed : 12 AM",400,50);
+          text("Last Feed : 12 AM",300,50);
       }else{
         textSize(20);
-          text("Last Feed : "+ lastFed + " AM", 400,50);
+          text("Last Feed : "+ lastFed + " AM", 300,50);
       }
       var x=70,y=100; 
       imageMode(CENTER);
